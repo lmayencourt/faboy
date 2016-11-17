@@ -8,3 +8,5 @@ progamation header for the cpu
 NRF24l for a wireless communication
 capacitive button
 coin-cell battery / thin film battery 
+multi power path
+different switch pattern
