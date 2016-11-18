@@ -12609,9 +12609,9 @@ IC-09995</description>
 <label x="287.02" y="162.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PD6(T1/ADC9/!OC4D)"/>
-<wire x1="121.92" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
-<label x="124.46" y="152.4" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PF5(ADC5/TMS)"/>
+<wire x1="121.92" y1="203.2" x2="127" y2="203.2" width="0.1524" layer="91"/>
+<label x="127" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OLED_RST" class="0">
@@ -12621,9 +12621,9 @@ IC-09995</description>
 <label x="289.56" y="162.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PD7(OC4D/ADC10/T0)"/>
-<wire x1="121.92" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
-<label x="121.92" y="154.94" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PF6(ADC6/TDO)"/>
+<wire x1="121.92" y1="200.66" x2="127" y2="200.66" width="0.1524" layer="91"/>
+<label x="124.46" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DC" class="0">
@@ -12633,9 +12633,9 @@ IC-09995</description>
 <label x="292.1" y="162.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PD4(ICP1/ADC8)"/>
-<wire x1="121.92" y1="147.32" x2="127" y2="147.32" width="0.1524" layer="91"/>
-<label x="124.46" y="147.32" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PF7(ADC7(TDI)"/>
+<wire x1="121.92" y1="198.12" x2="127" y2="198.12" width="0.1524" layer="91"/>
+<label x="127" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -13021,12 +13021,22 @@ IC-09995</description>
 <wire x1="187.96" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 <label x="172.72" y="111.76" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PD3(INT3/TXD1)"/>
+<wire x1="121.92" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
+<label x="124.46" y="144.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A" class="0">
 <segment>
 <pinref part="S7" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="104.14" x2="170.18" y2="104.14" width="0.1524" layer="91"/>
 <label x="170.18" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PD2(INT2/RXD1)"/>
+<wire x1="121.92" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
+<label x="124.46" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UP" class="0">

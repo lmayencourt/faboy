@@ -1,0 +1,8 @@
+ASSIGN F1 'MOVE'
+ASSIGN F2 'ROUTE'
+ASSIGN F3 'RIPUP'
+ASSIGN F4 'RATSNEST'
+ASSIGN F5 'WINDOW FIT'
+
+set drill 0.4mm
+change shape round

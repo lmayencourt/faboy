@@ -10,3 +10,4 @@ capacitive button
 coin-cell battery / thin film battery 
 multi power path
 different switch pattern
+QRCode
