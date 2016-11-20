@@ -12278,7 +12278,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="M06" device="SMD-FEMALE-V2"/>
-<part name="SJ1" library="jumper" deviceset="SJ" device=""/>
+<part name="SJ1" library="jumper" deviceset="SJ" device="" value="direct power"/>
 <part name="U2" library="SparkFun-PowerIC" deviceset="MCP73831" device=""/>
 <part name="C14" library="resistor" deviceset="C-EU" device="C0805K" value="4.7uF"/>
 <part name="C15" library="resistor" deviceset="C-EU" device="C0805K" value="4.7uF"/>
@@ -12290,8 +12290,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="resistor" deviceset="C-EU" device="C0805K" value="4.7uF"/>
-<part name="SJ2" library="jumper" deviceset="SJ2W" device=""/>
-<part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="R9" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
@@ -12302,12 +12300,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$8" library="SparkFun-DiscreteSemi" deviceset="SI4833BDY" device=""/>
 <part name="R12" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="SJ3" library="jumper" deviceset="SJ2W" device=""/>
+<part name="SJ3" library="jumper" deviceset="SJ2W" device="" value="direct path"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="332.74" y="66.04" size="1.778" layer="91">direct power</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -12357,7 +12354,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="S7" gate="G$1" x="182.88" y="104.14"/>
 <instance part="GND13" gate="1" x="203.2" y="96.52"/>
 <instance part="BAT1" gate="G$1" x="223.52" y="30.48" rot="R270"/>
-<instance part="SG1" gate="G$1" x="190.5" y="185.42" rot="R270"/>
+<instance part="SG1" gate="G$1" x="162.56" y="185.42" rot="R270"/>
 <instance part="S5" gate="1" x="279.4" y="58.42"/>
 <instance part="S8" gate="G$1" x="53.34" y="210.82"/>
 <instance part="GND14" gate="1" x="45.72" y="205.74"/>
@@ -12381,9 +12378,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND20" gate="1" x="198.12" y="20.32"/>
 <instance part="GND21" gate="1" x="208.28" y="20.32"/>
 <instance part="GND22" gate="1" x="193.04" y="20.32"/>
-<instance part="C16" gate="G$1" x="162.56" y="185.42" rot="R270"/>
-<instance part="SJ2" gate="G$1" x="175.26" y="175.26" rot="R180"/>
-<instance part="GND23" gate="1" x="175.26" y="165.1"/>
+<instance part="C16" gate="G$1" x="152.4" y="185.42" rot="R270"/>
 <instance part="GND24" gate="1" x="25.4" y="137.16"/>
 <instance part="R9" gate="G$1" x="297.18" y="101.6" rot="R180"/>
 <instance part="R10" gate="G$1" x="297.18" y="109.22" rot="R180"/>
@@ -12537,6 +12532,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="203.2" y1="101.6" x2="203.2" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="104.14" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="104.14" x2="203.2" y2="101.6" width="0.1524" layer="91"/>
+<junction x="203.2" y="104.14"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -12589,11 +12585,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="BAT1" gate="G$1" pin="-"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="223.52" y1="25.4" x2="223.52" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="SJ2" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="167.64" x2="175.26" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
@@ -12794,9 +12785,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="124.46" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="22.86" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
-<label x="27.94" y="152.4" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="22.86" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
+<label x="25.4" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -12961,9 +12952,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="124.46" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="22.86" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
-<label x="27.94" y="149.86" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="22.86" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
+<label x="25.4" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -13052,39 +13043,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$2" gate="G$1" pin="PC6(OC3A/!OC4A)"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="185.42" x2="157.48" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="185.42" x2="147.32" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="SG1" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="185.42" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="185.42" x2="154.94" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<wire x1="185.42" y1="175.26" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="SG1" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="182.88" x2="187.96" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="175.26" x2="185.42" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
 <pinref part="U$2" gate="G$1" pin="PC7(ICP3/CLK0/OC4A)"/>
-<wire x1="121.92" y1="182.88" x2="175.26" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="SJ2" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="182.88" x2="175.26" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="182.88" x2="160.02" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="22.86" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
-<label x="27.94" y="147.32" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="D0/DI"/>
 <wire x1="299.72" y1="177.8" x2="299.72" y2="162.56" width="0.1524" layer="91"/>
@@ -13094,6 +13070,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$2" gate="G$1" pin="PB1(SCK)"/>
 <wire x1="121.92" y1="162.56" x2="127" y2="162.56" width="0.1524" layer="91"/>
 <label x="124.46" y="162.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="22.86" y1="152.4" x2="27.94" y2="152.4" width="0.1524" layer="91"/>
+<label x="25.4" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -13292,31 +13273,37 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,33.02,45.72,CN1,VBUS,UVCC,,,"/>
+<approved hash="104,1,33.02,38.1,CN1,VBUS,UVCC,,,"/>
 <approved hash="104,1,274.32,177.8,U$1,VSS,GND,,,"/>
 <approved hash="104,1,276.86,177.8,U$1,VDD,VCC,,,"/>
 <approved hash="202,1,294.64,177.8,U$1,R/W,,,,"/>
 <approved hash="202,1,297.18,177.8,U$1,E/RD,,,,"/>
 <approved hash="104,1,325.12,177.8,U$1,VCC,N$8,,,"/>
 <approved hash="104,1,327.66,177.8,U$1,VLSS,GND,,,"/>
-<approved hash="104,1,233.68,30.48,BAT1,-,GND,,,"/>
-<approved hash="104,1,233.68,40.64,BAT1,+,VBAT,,,"/>
-<approved hash="104,1,307.34,58.42,U1,IN,N$10,,,"/>
-<approved hash="104,1,307.34,43.18,U1,PGND,GND,,,"/>
-<approved hash="104,1,195.58,40.64,U2,VSS,GND,,,"/>
-<approved hash="206,1,337.82,58.42,VCC,,,,,"/>
-<approved hash="206,1,337.82,55.88,VCC,,,,,"/>
+<approved hash="104,1,223.52,25.4,BAT1,-,GND,,,"/>
+<approved hash="104,1,223.52,35.56,BAT1,+,VBAT,,,"/>
+<approved hash="104,1,317.5,55.88,U1,IN,N$10,,,"/>
+<approved hash="104,1,317.5,40.64,U1,PGND,GND,,,"/>
+<approved hash="104,1,190.5,35.56,U2,VSS,GND,,,"/>
+<approved hash="206,1,347.98,55.88,VCC,,,,,"/>
+<approved hash="206,1,347.98,53.34,VCC,,,,,"/>
 <approved hash="208,1,66.04,226.06,VCC,sup,,,,"/>
 <approved hash="208,1,66.04,200.66,VCC,sup,,,,"/>
-<approved hash="208,1,160.02,157.48,VCC,sup,,,,"/>
-<approved hash="208,1,337.82,58.42,VCC,out,,,,"/>
-<approved hash="208,1,337.82,55.88,VCC,out,,,,"/>
+<approved hash="208,1,55.88,81.28,VCC,sup,,,,"/>
+<approved hash="208,1,347.98,55.88,VCC,out,,,,"/>
+<approved hash="208,1,347.98,53.34,VCC,out,,,,"/>
+<approved hash="208,1,330.2,111.76,VCC,sup,,,,"/>
+<approved hash="108,1,203.2,104.14,GND,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
-<approved hash="113,1,24.765,41.9312,CN1,,,,,"/>
-<approved hash="113,1,146.05,149.538,LED1,,,,,"/>
-<approved hash="113,1,235.399,35.56,BAT1,,,,,"/>
-<approved hash="113,1,139.7,102.637,J1,,,,,"/>
-<approved hash="113,1,24.7227,94.1747,J2,,,,,"/>
+<approved hash="113,1,24.765,34.3112,CN1,,,,,"/>
+<approved hash="113,1,41.91,73.3383,LED1,,,,,"/>
+<approved hash="113,1,41.91,83.4983,LED2,,,,,"/>
+<approved hash="113,1,225.239,30.48,BAT1,,,,,"/>
+<approved hash="113,1,280.67,57.1585,S5,,,,,"/>
+<approved hash="113,1,19.6427,150.055,J2,,,,,"/>
+<approved hash="113,1,330.2,70.0955,SJ1,,,,,"/>
+<approved hash="113,1,151.13,35.8817,LED3,,,,,"/>
+<approved hash="113,1,267.641,38.1,SJ3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
