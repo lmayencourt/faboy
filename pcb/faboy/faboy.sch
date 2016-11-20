@@ -12832,35 +12832,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="68.58" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="UVCC" class="0">
-<segment>
-<pinref part="CN1" gate="G$1" pin="VBUS"/>
-<wire x1="33.02" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="38.1" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
-<label x="38.1" y="45.72" size="1.778" layer="95"/>
-<pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="43.18" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="40.64" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
-<junction x="38.1" y="43.18"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="UVCC"/>
-<wire x1="73.66" y1="193.04" x2="71.12" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="193.04" x2="71.12" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VBUS"/>
-<wire x1="71.12" y1="205.74" x2="73.66" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="205.74" x2="71.12" y2="208.28" width="0.1524" layer="91"/>
-<junction x="71.12" y="205.74"/>
-<label x="68.58" y="208.28" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="198.12" x2="15.24" y2="200.66" width="0.1524" layer="91"/>
-<label x="15.24" y="200.66" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="UCAP"/>
@@ -12929,6 +12900,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SJ3" gate="G$1" pin="3"/>
 <wire x1="266.7" y1="43.18" x2="266.7" y2="45.72" width="0.1524" layer="91"/>
 <label x="266.7" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="UVCC"/>
+<wire x1="73.66" y1="193.04" x2="71.12" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="193.04" x2="71.12" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VBUS"/>
+<wire x1="71.12" y1="205.74" x2="73.66" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="205.74" x2="71.12" y2="208.28" width="0.1524" layer="91"/>
+<junction x="71.12" y="205.74"/>
+<label x="68.58" y="208.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="198.12" x2="15.24" y2="200.66" width="0.1524" layer="91"/>
+<label x="15.24" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -13269,11 +13255,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="274.32" y="53.34"/>
 </segment>
 </net>
+<net name="VBUS" class="0">
+<segment>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="40.64" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="43.18" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="43.18" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="CN1" gate="G$1" pin="VBUS"/>
+<wire x1="35.56" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
+<label x="43.18" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,33.02,38.1,CN1,VBUS,UVCC,,,"/>
 <approved hash="104,1,274.32,177.8,U$1,VSS,GND,,,"/>
 <approved hash="104,1,276.86,177.8,U$1,VDD,VCC,,,"/>
 <approved hash="202,1,294.64,177.8,U$1,R/W,,,,"/>
@@ -13293,7 +13290,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="208,1,347.98,55.88,VCC,out,,,,"/>
 <approved hash="208,1,347.98,53.34,VCC,out,,,,"/>
 <approved hash="208,1,330.2,111.76,VCC,sup,,,,"/>
-<approved hash="108,1,203.2,104.14,GND,,,,,"/>
 <approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
 <approved hash="113,1,24.765,34.3112,CN1,,,,,"/>
 <approved hash="113,1,41.91,73.3383,LED1,,,,,"/>
@@ -13301,9 +13297,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="113,1,225.239,30.48,BAT1,,,,,"/>
 <approved hash="113,1,280.67,57.1585,S5,,,,,"/>
 <approved hash="113,1,19.6427,150.055,J2,,,,,"/>
-<approved hash="113,1,330.2,70.0955,SJ1,,,,,"/>
 <approved hash="113,1,151.13,35.8817,LED3,,,,,"/>
-<approved hash="113,1,267.641,38.1,SJ3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
