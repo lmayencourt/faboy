@@ -12270,9 +12270,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S8" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-3"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="maxim" deviceset="MAX1595" device="UMAX"/>
-<part name="C11" library="resistor" deviceset="C-EU" device="C0805K" value="1uF"/>
-<part name="C12" library="resistor" deviceset="C-EU" device="C0805K" value="1uF"/>
-<part name="C13" library="resistor" deviceset="C-EU" device="C0805K" value="1uF"/>
+<part name="C11" library="resistor" deviceset="C-EU" device="C0805K" value="0.47uF"/>
+<part name="C12" library="resistor" deviceset="C-EU" device="C0805K" value="2.2uF"/>
+<part name="C13" library="resistor" deviceset="C-EU" device="C0805K" value="2.2uF"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
