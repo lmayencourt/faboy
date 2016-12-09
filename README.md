@@ -1,6 +1,9 @@
 # faboy
 arduboy clone for the fablab of Sion (CH)
 
+<img src="./documentation/img/faboy_1.jpg" width="200">
+<img src="./documentation/img/faboy_2.jpg" width="200">
+
 ## idea for v2 
   * NRF24l for a wireless communication
   * capacitive button
@@ -8,6 +11,8 @@ arduboy clone for the fablab of Sion (CH)
   * different switch pattern
   * ARM processor 
   * solar cell
+  * PCB usb connector 
+  * battery monitoring with ADC
 
 ## issues 
   * bad usb connector (mmini b instead of micro b !)
