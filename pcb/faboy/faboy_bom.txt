@@ -1,56 +1,56 @@
-Partlist exported from /home/louis/eagle/faboy/pcb/faboy/faboy.sch at 23.11.16 09:24
+Partlist exported from /home/louis/eagle/faboy/pcb/faboy/faboy.sch at 01.12.16 16:03
 
-Part Value                           Device                          Package              Description                                                                             PROD_ID    VALUE
-BAT1                                 BATTERY20SMD                    BATTCON_20MM         Battery Holders                                                                                         
-C1   1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C2   1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C3   4.7uF / 10v                     C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C4   2.2uF                           C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C5   1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C6   1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C7   1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C8   1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C9   0.1uF                           C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C10  1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C11  1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C12  1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C13  1uF                             C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C14  4.7uF                           C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C15  4.7uF                           C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-C16  4.7uF                           C-EUC0805K                      C0805K               CAPACITOR, European symbol                                                                              
-CN1                                  USBMINIB                        USB-MINIB            USB Connectors                                                                                          
-F1   500mA                           PTCFUSE-1812                    1812                 PTC fuses, resettable thermistors                                                                       
-J2                                   M06SMD-FEMALE-V2                1X06-SMD-FEMALE-V2   Header 6                                                                                CONN-09668      
-LED1                                 LEDSML0805                      SML0805              LED                                                                                                     
-LED2                                 LEDSML0805                      SML0805              LED                                                                                                     
-LED3                                 LEDSML0805                      SML0805              LED                                                                                                     
-R1   390k                            R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R2   10k                             R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R3   22                              R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R4   22                              R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R5   330                             R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R6   330                             R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R7   390k                            R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R8   470                             R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R9   330                             R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R10  330                             R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R11  330                             R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-R12  10k                             R-EU_R0805                      R0805                RESISTOR, European symbol                                                                               
-S1   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD   Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
-S2   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD   Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
-S3   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD   Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
-S4   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD   Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
-S5                                   SWITCH-SPDT-SMD-A               SWITCH-SPST-SMD-A    SPDT Switch                                                                             SWCH-10651      
-S6   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD   Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
-S7   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD   Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
-S8   SWITCH-MOMENTARY-2SMD-3         SWITCH-MOMENTARY-2SMD-3         TACTILE_SWITCH_SMD-3 Various NO switches- pushbuttons, reed, etc                                                             
-SG1  BUZZERSMD3                      BUZZERSMD3                      BUZZER-CMT1102       Buzzer 12mm                                                                                             
-SJ1  direct power                    SJ                              SJ                   SMD solder JUMPER                                                                                       
-SJ3  direct path                     SJ2W                            SJ_2                 SMD solder JUMPER                                                                                       
-U$1  UG-2864HSWEG01                  UG-2864HSWEG01                  1X30-0.7MM           UG-2864HSWEG01 OLED display                                                                             
-U$2  ATMEGA32U4-AU                   ATMEGA32U4-AU                   TQFP44               http://www.ladyada.net/library/eagle                                                                    
-U$7  LED-RGB-P-LCC-4                 LED-RGB-P-LCC-4                 P-LCC-4-3                                                                                                                    
-U$8  SI4833BDY                       SI4833BDY                       SO08                                                                                                                         
-U1   MAX1595UMAX                     MAX1595UMAX                     UMAX8                max1595 buck/boost dcdc 3.3v output                                                                     
-U2   MCP73831                        MCP73831                        SOT23-5              Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller IC-09995        
-Y1   16MHZ                           RESONATOR16MHZ                  RESONATOR-SMD        Resonator                                                                               XTAL-08900 16MHZ
+Part Value                           Device                          Package                       Description                                                                             PROD_ID    VALUE
+BAT1                                 BATTERY20SMD                    BATTCON_20MM                  Battery Holders                                                                                         
+C1   1uF                             C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C2   1uF                             C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C3   4.7uF / 10v                     C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C4   2.2uF                           C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C5   1uF                             C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C6   1uF                             C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C7   1uF                             C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C8   1uF                             C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C9   0.1uF                           C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C10  1uF                             C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C11  0.47uF                          C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C12  2.2uF                           C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C13  2.2uF                           C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C14  4.7uF                           C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C15  4.7uF                           C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+C16  4.7uF                           C-EUC0805K                      C0805K                        CAPACITOR, European symbol                                                                              
+F1   500mA                           PTCFUSE-1812                    1812                          PTC fuses, resettable thermistors                                                                       
+J1   USB-MICROBREDUCED_PASTE         USB-MICROBREDUCED_PASTE         USB-B-MICRO-SMD_V03_RED_PASTE RED_PASTE version has 70% paste area under D+ D- USBID pins for applications            CONN-11752      
+J2                                   M06SMD-FEMALE-V2                1X06-SMD-FEMALE-V2            Header 6                                                                                CONN-09668      
+LED1                                 LEDSML0805                      SML0805                       LED                                                                                                     
+LED2                                 LEDSML0805                      SML0805                       LED                                                                                                     
+LED3                                 LEDSML0805                      SML0805                       LED                                                                                                     
+R1   390k                            R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R2   10k                             R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R3   22                              R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R4   22                              R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R5   820                             R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R6   820                             R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R7   390k                            R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R8   470                             R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R9   820                             R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R10  820                             R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R11  820                             R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+R12  10k                             R-EU_R0805                      R0805                         RESISTOR, European symbol                                                                               
+S1   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD            Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
+S2   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD            Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
+S3   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD            Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
+S4   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD            Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
+S5                                   SWITCH-SPDT-SMD-A               SWITCH-SPST-SMD-A             SPDT Switch                                                                             SWCH-10651      
+S6   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD            Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
+S7   SWITCH-MOMENTARY-2SMD-REDUNDANT SWITCH-MOMENTARY-2SMD-REDUNDANT TACTILE-SWITCH-SMD            Various NO switches- pushbuttons, reed, etc                                             SWCH-08247      
+S8   SWITCH-MOMENTARY-2SMD-3         SWITCH-MOMENTARY-2SMD-3         TACTILE_SWITCH_SMD-3          Various NO switches- pushbuttons, reed, etc                                                             
+SG1  BUZZERSMD3                      BUZZERSMD3                      BUZZER-CMT1102                Buzzer 12mm                                                                                             
+SJ1  direct power                    SJ                              SJ                            SMD solder JUMPER                                                                                       
+SJ3  direct path                     SJ2W                            SJ_2                          SMD solder JUMPER                                                                                       
+U$1  UG-2864HSWEG01                  UG-2864HSWEG01                  1X30-0.7MM                    UG-2864HSWEG01 OLED display                                                                             
+U$2  ATMEGA32U4-AU                   ATMEGA32U4-AU                   TQFP44                        http://www.ladyada.net/library/eagle                                                                    
+U$7  LED-RGB-P-LCC-4                 LED-RGB-P-LCC-4                 P-LCC-4-3                                                                                                                             
+U$8  SI4833BDY                       SI4833BDY                       SO08                                                                                                                                  
+U1   MAX1595UMAX                     MAX1595UMAX                     UMAX8                         max1595 buck/boost dcdc 3.3v output                                                                     
+U2   MCP73831                        MCP73831                        SOT23-5                       Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller IC-09995        
+Y1   16MHZ                           RESONATOR16MHZ                  RESONATOR-SMD                 Resonator                                                                               XTAL-08900 16MHZ

@@ -12044,8 +12044,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="SML0805"/>
 <part name="LED2" library="led" deviceset="LED" device="SML0805"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="R0805" value="820"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="820"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="C10" library="resistor" deviceset="C-EU" device="C0805K" value="1uF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -12079,9 +12079,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="resistor" deviceset="C-EU" device="C0805K" value="4.7uF"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="R0805" value="330"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="R0805" value="820"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="R0805" value="820"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="R0805" value="820"/>
 <part name="U$7" library="SparkFun-LED" deviceset="LED-RGB-P-LCC-4" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>

@@ -5517,8 +5517,8 @@ design rules under a new name.</description>
 <element name="R2" library="resistor" package="R0805" value="10k" x="70.0532" y="5.08" rot="R90"/>
 <element name="R3" library="resistor" package="R0805" value="22" x="10.795" y="40.005" rot="R180"/>
 <element name="R4" library="resistor" package="R0805" value="22" x="10.795" y="42.545" rot="R180"/>
-<element name="R5" library="resistor" package="R0805" value="330" x="16.51" y="45.085" rot="R180"/>
-<element name="R6" library="resistor" package="R0805" value="330" x="16.51" y="37.465" rot="R180"/>
+<element name="R5" library="resistor" package="R0805" value="820" x="16.51" y="45.085" rot="R180"/>
+<element name="R6" library="resistor" package="R0805" value="820" x="16.51" y="37.465" rot="R180"/>
 <element name="S1" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-SMD" value="SWITCH-MOMENTARY-2SMD-REDUNDANT" x="26.035" y="41.275" rot="R180">
 <attribute name="PROD_ID" value="SWCH-08247" x="26.035" y="41.275" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -5569,9 +5569,9 @@ design rules under a new name.</description>
 <element name="R8" library="resistor" package="R0805" value="470" x="25.4" y="8.255" rot="R270"/>
 <element name="LED3" library="led" package="SML0805" value="" x="25.4" y="3.175" rot="R270"/>
 <element name="C16" library="resistor" package="C0805K" value="4.7uF" x="46.101" y="12.573"/>
-<element name="R9" library="resistor" package="R0805" value="330" x="59.9186" y="4.9784" rot="R180"/>
-<element name="R10" library="resistor" package="R0805" value="330" x="59.9186" y="2.1082" rot="R180"/>
-<element name="R11" library="resistor" package="R0805" value="330" x="59.9186" y="8.128" rot="R180"/>
+<element name="R9" library="resistor" package="R0805" value="820" x="59.9186" y="4.9784" rot="R180"/>
+<element name="R10" library="resistor" package="R0805" value="820" x="59.9186" y="2.1082" rot="R180"/>
+<element name="R11" library="resistor" package="R0805" value="820" x="59.9186" y="8.128" rot="R180"/>
 <element name="U$7" library="SparkFun-LED" package="P-LCC-4-3" value="LED-RGB-P-LCC-4" x="64.516" y="5.334"/>
 <element name="U$8" library="SparkFun-DiscreteSemi" package="SO08" value="SI4833BDY" x="46.99" y="49.53" rot="R270"/>
 <element name="R12" library="resistor" package="R0805" value="10k" x="40.64" y="48.895" rot="R90"/>
