@@ -1,5 +1,5 @@
-#ifndef ArduboyCore_h
-#define ArduboyCore_h
+#ifndef FABOY_CORE_H
+#define FABOY_CORE_H
 
 #include <avr/power.h>
 #include <SPI.h>
@@ -9,7 +9,7 @@
 
 // main hardware compile flags
 
-#if !defined(ARDUBOY_10) && !defined(AB_DEVKIT)
+#if !defined(ARDUBOY_10) && !defined(AB_DEVKIT) && !defined(FABOY_DEV) && !defined(FABOY_BLE) 
 /// defaults to Arduboy Release 1.0 if not using a boards.txt file
 /**
  * we default to Arduboy Release 1.0 if a compile flag has not been
@@ -22,7 +22,9 @@
  *     // #define ARDUBOY_10
  *     #define AB_DEVKIT
  */     
- #define FABOY_DEV      //< compile for the dev board  
+
+#define FABOY_BLE       //< compile for the ble board
+// #define FABOY_DEV    //< compile for the dev board  
 // #define ARDUBOY_10   //< compile for the production Arduboy v1.0
 // #define AB_DEVKIT    //< compile for the official dev kit
 #endif
@@ -32,7 +34,6 @@
 #define DEVKIT       //< for compatibilty with older sketches
 #define SAFE_MODE    //< include safe mode (44 bytes)
 #endif 
-
 
 #ifdef ARDUBOY_10
 
@@ -70,6 +71,30 @@
 
 #define PIN_SPEAKER_1_BITMASK _BV(6)
 #define PIN_SPEAKER_2_BITMASK _BV(7)
+
+#elif defined(FABOY_BLE)
+
+#define SCL p12
+#define SDA p11
+
+#define RED_LED p17
+#define GREEN_LED p18
+#define BLUE_LED p19
+#define TX_LED p20
+#define RX_LED p20
+
+// pin values for buttons, probably shouldn't use these
+#define PIN_LEFT_BUTTON p13
+#define PIN_RIGHT_BUTTON p14
+#define PIN_UP_BUTTON p15
+#define PIN_DOWN_BUTTON p16
+#define PIN_A_BUTTON p16
+#define PIN_B_BUTTON p16
+
+// bit values for button states
+
+#define PIN_SPEAKER_1 p20
+#define PIN_SPEAKER_2 p20
 
 #elif defined(FABOY_DEV)
 
